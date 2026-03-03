@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventario.Api", "WebInventario.Api\WebInventario.Api.csproj", "{7FF854E7-4080-47BE-A3B0-361D99389BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventario.Domain", "WebInventario.Domain\WebInventario.Domain\WebInventario.Domain.csproj", "{12174D2C-7308-4491-BBC2-6BA7D082CB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventario.Application", "WebInventario.Application\WebInventario.Application.csproj", "{406198F8-6760-441E-9AA1-8E0E3A1C766A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventario.Infrastructure", "WebInventario.Infrastructure\WebInventario.Infrastructure.csproj", "{96BD0FBD-0F1F-4119-A6D2-B010B858FC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventario.Tests", "WebInventario.Tests\WebInventario.Tests.csproj", "{4707057A-78D0-456A-89C1-BD4C53BC845B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF854E7-4080-47BE-A3B0-361D99389BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF854E7-4080-47BE-A3B0-361D99389BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF854E7-4080-47BE-A3B0-361D99389BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF854E7-4080-47BE-A3B0-361D99389BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12174D2C-7308-4491-BBC2-6BA7D082CB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12174D2C-7308-4491-BBC2-6BA7D082CB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12174D2C-7308-4491-BBC2-6BA7D082CB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12174D2C-7308-4491-BBC2-6BA7D082CB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406198F8-6760-441E-9AA1-8E0E3A1C766A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406198F8-6760-441E-9AA1-8E0E3A1C766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406198F8-6760-441E-9AA1-8E0E3A1C766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406198F8-6760-441E-9AA1-8E0E3A1C766A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BD0FBD-0F1F-4119-A6D2-B010B858FC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BD0FBD-0F1F-4119-A6D2-B010B858FC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BD0FBD-0F1F-4119-A6D2-B010B858FC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BD0FBD-0F1F-4119-A6D2-B010B858FC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4707057A-78D0-456A-89C1-BD4C53BC845B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4707057A-78D0-456A-89C1-BD4C53BC845B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4707057A-78D0-456A-89C1-BD4C53BC845B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4707057A-78D0-456A-89C1-BD4C53BC845B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0F2986F-B286-49CC-8A7C-4FF490021B7D}
+	EndGlobalSection
+EndGlobal
